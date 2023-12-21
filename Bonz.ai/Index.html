@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonz.ai</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./JS.js"></script>
+</head>
+<body>
+    <header id="topbar__anchor" class="topbar">
+        <nav class="topbar__content">
+            <a href="#topbar__anchor"><img height="50px" src="./Bilder/bonz.ai-logo-white-landscape.png" alt="" class="topbar__content-logo"></a>
+            <ul class="topbar__content-list">
+                <li class="topbar__content-item"><a href="#topbar__anchor" class="topbar__content-item-link">Hem</a></li>
+                <li class="topbar__content-item"><a href="./cards.html" class="topbar__content-item-link">Om oss</a></li>
+                <li class="topbar__content-item"><a href="./Index.html" class="topbar__content-item-link">Kontakt</a></li>
+                <li class="topbar__content-item"><button class="topbar__content-item-btn">Boka</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="top__section top__section-background-img">
+        <h1 class="top__section-title">Boka enkelt med bonz.ai</h1>
+        <div class="top__section-input-box">
+            <input type="date" placeholder="Från" class="top__section-input">
+            <input type="date" placeholder="Till" class="top__section-input">
+            <select id="gäster" name="gäster" class="top__section-input">
+                <option value="gäster">Gäster</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select id="rum" name="rum" class="top__section-input">
+                <option value="rum">Rum</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <button class="top__section-input top__section-input-submit">Sök</button>
+        </div>
+    </section>
+
+    <div class="middle__section-wrapper">
+        <section class="middle__section">
+            <aside class="middle__section-content-left">
+                <h1 class="middle__section-title">Om oss</h1>
+                <p class="middle__section-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
+                making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+                and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, 
+                sometimes on purpose (injected humour and the like).</p>
+                <a class="middle__section-btn-link" href="./cards.html"><button class="middle__section-btn">Läs mer</button></a>
+            </aside>
+            <img src="./Bilder/05-day.jpg" alt="" class="middle__section-img">
+        </section>
+    </div>
+    
+
+    <section class="lower__boxes">
+        <div class="lower__boxes-img lower__boxes-img-src-left">
+            <h1 class="lower__boxes-img-title">Faciliteter</h1>
+        </div>
+        <div class="lower__boxes-img lower__boxes-img-src-right">
+            <h1 class="lower__boxes-img-title">Jul & Nyår</h1>
+        </div>
+    </section>
+
+    <section class="bottom__section">
+        <aside class="bottom__section-content-left">
+            <h1 class="bottom__section-content-left-title">Snabb boka</h1>
+            <div class="bottom__section-content-left-input-group">
+                <input type="date" placeholder="Från" class="bottom__section-content-left-input">
+                <input type="date" placeholder="Till" class="bottom__section-content-left-input">
+                <select id="gäster" name="gäster" class="bottom__section-content-left-input">
+                    <option value="gäster">Gäster</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select id="rum" name="rum" class="bottom__section-content-left-input">
+                    <option value="gum">Rum</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="bottom__section-content-left-input bottom__section-content-left-input-submit">Sök</button>
+            </div>
+        </aside>
+        <aside class="bottom__section-content-right">
+            <img src="./Bilder/05-day.jpg" alt="" class="bottom__section-content-right-img">
+            <p class="bottom__section-content-right-p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
+                making it look like readable English.</p>
+            <button class="bottom__section-content-right-btn">Mer detaljer</button>
+        </aside>
+
+    </section>
+</html>
