@@ -180,6 +180,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 100px;
 }
 
 .middle__section {
@@ -434,5 +435,63 @@ body {
     }
     .bottom__section-content-left-title {
         font-size: 30px;
+    }
+}
+
+/* Cards */
+
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 200px;
+}
+
+.cards__content {
+    margin: 5px;
+}
+
+/* Contact */
+
+.contact__form {
+    padding: 200px;
+}
+
+.contact__form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__form-wrapper-input {
+    padding: 20px;
+    border-radius: var(--button-border-radius);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: var(--light-shadow);
+    transition: all 0.3s ease;
+    outline: none;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* Contact MQ */
+
+@media screen and (max-width:620px){
+    .contact__form {
+        display: flex;
+        justify-content: center;
+        padding: 200px;
+    }
+
+
+    .contact__form-wrapper-input {
+        width: 200px;
+    }
+
+    .contact__form-wrapper-input-land {
+        width: 240px;
     }
 }

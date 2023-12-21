@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonz.ai</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./JS.js"></script>
+</head>
+<body>
+    <header id="topbar__anchor" class="topbar">
+        <nav class="topbar__content">
+            <a href="#topbar__anchor"><img height="50px" src="./Bilder/bonz.ai-logo-white-landscape.png" alt="" class="topbar__content-logo"></a>
+            <ul class="topbar__content-list">
+                <li class="topbar__content-item"><a href="./Index.html" class="topbar__content-item-link">Hem</a></li>
+                <li class="topbar__content-item"><a href="./cards.html" class="topbar__content-item-link">Om oss</a></li>
+                <li class="topbar__content-item"><a href="./kontakt.html" class="topbar__content-item-link">Kontakt</a></li>
+                <li class="topbar__content-item"><button class="topbar__content-item-btn">Boka</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact__form">
+        <form action="" class="contact__form-wrapper">
+            <label for="fname">Förnamn</label>
+            <input type="text" class="contact__form-wrapper-input contact__form-wrapper-input-fname" placeholder="Ditt namn...">
+
+            <label for="lname">Efternamn</label>
+            <input type="text" class="contact__form-wrapper-input contact__form-wrapper-input-lname" placeholder="Ditt efternamn...">
+
+            <label for="country">Land</label>
+            <select class="contact__form-wrapper-input contact__form-wrapper-input-land" name="country">
+                <option value="australia">Sverige</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Ämne</label>
+            <textarea class="contact__form-wrapper-input contact__form-wrapper-input-text" name="subject" placeholder="Skriv här" style="height:200px"></textarea>
+        </form>
+    </section>
+</body>
+</html>
